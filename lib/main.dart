@@ -26,6 +26,7 @@ class SeriesDetailsScreen extends StatelessWidget {
     'assets/images/episode6.png',
   ];
 
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
