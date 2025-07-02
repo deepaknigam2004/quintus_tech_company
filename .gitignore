@@ -16,6 +16,14 @@ migrate_working_dir/
 *.iws
 .idea/
 
+# Tell GitHub linguist to prioritize Dart
+*.dart linguist-detectable=true
+
+# Ignore Android and iOS native code (Java, Kotlin, Swift, C++)
+android/** linguist-vendored
+ios/** linguist-vendored
+
+
 # The .vscode folder contains launch configuration and tasks you configure in
 # VS Code which you may wish to be included in version control, so this line
 # is commented out by default.
